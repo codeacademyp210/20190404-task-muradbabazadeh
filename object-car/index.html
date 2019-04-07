@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-6 offset-3">
+                <form action="#" class="myForm mt-5" name="myForm" onsubmit="return Validation()">
+                    <div class="form-group">
+                        <input name="marka" type="text" class="form-control" placeholder="Enter marka...">
+                    </div>
+                    <div name="model" class="form-group">
+                        <input type="text" class="form-control" placeholder="Enter model...">
+                    </div>
+                    <div name="year" class="form-group">
+                        <input type="text" class="form-control" placeholder="Entet year...">
+                    </div>
+                    <button class="btn btn-primary" onsubmit="ClickBtn()">Add</button>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 offset-3">
+                <ul class="carList">
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
